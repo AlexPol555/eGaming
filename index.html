@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/clean.css">
+   <link rel="stylesheet" href="css/style.css">
+
+   <title>eGaming</title>
+</head>
+
+<body>
+   <header>
+      <div class="nav">
+         <div class="nav__main-blocks container">
+            <div class="nav__main-block">
+               <ul class="nav__list">
+                  <li><img src="img/nav/search.svg" alt="Icon search"></li>
+                  <li>Casino</li>
+                  <li>Shop</li>
+                  <li>Promotions</li>
+               </ul>
+            </div>
+            <div class="nav__main-block-logo">
+               <img src="img/nav/cards.svg" alt="Logo">
+               <h1>Casino Test</h1>
+            </div>
+            <div class="nav__main-block-button">
+               <button class="button">Deposit</button>
+               <button class="button ml__15"><img src="img/nav/Group.svg" alt="Icon men" class="nav__icon">Log
+                  In</button>
+            </div>
+         </div>
+      </div>
+      <section class="wrapper-header">
+         <div class="auth mt__55">
+            <h2>Sign up and start winning</h2>
+            <span class="little-text mt__13">With your social network</span>
+            <div class="auth__soc">
+               <img src="img/nav/mail.svg" alt="Social icon">
+               <img src="img/nav/odnok.svg" alt="Social icon">
+               <img src="img/nav/fais.svg" alt="Social icon">
+               <img src="img/nav/vk.svg" alt="Social icon">
+               <img src="img/nav/google.svg" alt="Social icon">
+            </div>
+            <span class="little-text block mt__8">or</span>
+            <input class="input-main mt__10 little-text"" placeholder=" E-mail *" type="email" id="email"
+               pattern=".+@globex\.com" size="30" required>
+            <div class="auth__wrapper mt__10 little-text">
+               <div class="auth__password">
+                  <input class="input-main" type="password" id="password-input" placeholder="Введите пароль"
+                     name="password">
+                  <a href="#" class="auth__password-control" onclick="return show_hide_password(this);"></a>
+               </div>
+               <select class="input-main input-cur little-text" size="1">
+                  <option value="" disabled selected>Currency * </option>
+                  <option value="1">$</option>
+                  <option value="2">€</option>
+                  <option value="3">₽</option>
+               </select>
+            </div>
+            <input class="input-main mt__10 little-text icon-ques" type=" text">
+            <div class="auth__check mt__16">
+               <input type="checkbox" id="scales" name="scales">
+               <span class="little-text">I agree with <span class="underline">Teame and Confidence</span></span>
+            </div>
+            <div class="auth__check mt__13">
+               <input type="checkbox" id="scales" name="scales">
+               <span class="little-text">I comfirm that I’m 18 years or older</span>
+            </div>
+            <button class="button mt__13 mauto">Register</button>
+            <a href="#"><span class="little-text underline block mt__14">Have an account?</span></a>
+         </div>
+         <div class="slider">
+            <div class="slider__wrapp-shadow-top">
+               <div class="slider__wrapp-shadow-bottom">
+
+                  <div class="slider__fill">
+                     <div class="slider__arrows">
+                        <div class="slider__arrow">
+                           <img src="img/nav/ArrowL.svg" alt="Arrow">
+                        </div>
+                        <div class="slider__arrow ml__15">
+                           <img src="img/nav/ArrowR.svg" alt="Arrow">
+                        </div>
+                     </div>
+                     <span class="text-bonus block">FIRST bonuses</span>
+                     <h3>Welcome BonusPackage</h3>
+                     <div class="line"></div>
+                     <span class="block mt__16">200 bonus and 100 free spins</span>
+                     <button class="button mt__25">Deposit</button>
+
+                  </div>
+                  <div class="slider__pagination-wrapper">
+                     <div class="slider__pagination"></div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </section>
+   </header>
+   <main>
+      <section class="menu">
+         <div class="container">
+            <div class="menu__list-game">
+               <div class="menu__block-game">
+                  <img src="img/menu-icon/1.svg" alt="Icon">
+                  <span>New games</span>
+               </div>
+               <div class="menu__block-game">
+                  <img src="img/menu-icon/2.svg" alt="Icon">
+                  <span>Popular</span>
+               </div>
+               <div class="menu__block-game">
+                  <img src="img/menu-icon/3.svg" alt="Icon">
+                  <span>Slots</span>
+               </div>
+               <div class="menu__block-game">
+                  <img src="img/menu-icon/4.svg" alt="Icon">
+                  <span>Casino Live</span>
+               </div>
+               <div class="menu__block-game">
+                  <img src="img/menu-icon/5.svg" alt="Icon">
+                  <span>Table Games</span>
+               </div>
+               <div class="menu__block-game">
+                  <img src="img/menu-icon/6.svg" alt="Icon">
+                  <span>Favorites</span>
+               </div>
+               <div class="menu__block-game">
+                  <img src="img/menu-icon/7.svg" alt="Icon">
+                  <span>Last played</span>
+               </div>
+               <select class="menu__choice" size="1">
+                  <option value="" disabled selected>All category</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+               </select>
+               <input class="menu__search" type=" text" placeholder="Search games or providers">
+
+            </div>
+            <div class="menu__filtr">
+               <div class="menu__filrt-block">Al Providers</div>
+               <div class="menu__filrt-block">NetEnt</div>
+               <div class="menu__filrt-block">Microgaming</div>
+               <div class="menu__filrt-block">Quickspin</div>
+               <div class="menu__filrt-block">BoomingGames</div>
+               <div class="menu__filrt-block">MrSlotty</div>
+               <div class="menu__filrt-block">BoomingGames</div>
+               <div class="menu__filrt-block">BetRadar</div>
+               <div class="menu__filrt-block">PariPlay</div>
+               <div class="menu__filrt-block">BetConstruct</div>
+               <div class="menu__filrt-block">NetEnt</div>
+               <div class="menu__filrt-block arrow-menu">
+                  <span>More</span>
+                  <img src="img/menu-icon/arrow.svg" alt="Arrow">
+               </div>
+            </div>
+
+         </div>
+      </section>
+      <section class="new-games container mt__55">
+         <div class="games-nav">
+            <span class="text-name-block">New games</span>
+            <span class="text-view">View all (46) ></span>
+         </div>
+         <div class="games-wrapper">
+            <div class="games-small">
+               <img src="img/new-games/1.png" alt="Picture of the game">
+               <img src="img/new-games/2.png" alt="Picture of the game">
+               <img src="img/new-games/3.png" alt="Picture of the game">
+               <img src="img/new-games/4.png" alt="Picture of the game">
+               <img src="img/new-games/5.png" alt="Picture of the game">
+               <img src="img/new-games/6.png" alt="Picture of the game">
+               <img src="img/new-games/7.png" alt="Picture of the game">
+               <img src="img/new-games/8.png" alt="Picture of the game">
+            </div>
+            <div class="games-big ml__9" style="background: url(img/new-games/3.png) 0 0 no-repeat;    background-size: cover;
+            ">
+               <!-- <img src="img/new-games/2.png" alt="Picture of the game"> -->
+               <div class="peculiarity">
+                  <span class="peculiarity-text">New game</span>
+               </div>
+               <button class="button button-pos active-play-green">Play now</button>
+            </div>
+
+         </div>
+      </section>
+      <section class="new-games container mt__55">
+         <div class="games-nav">
+            <span class="text-name-block">Popular</span>
+            <span class="text-view">View all (46) ></span>
+         </div>
+         <div class="games-wrapper wrapper-blue-lite">
+            <div class="games-big games-blue mr__9" style="background: url(img/pop/3.png) 0 0 no-repeat;    background-size: cover;
+            ">
+               <!-- <img src="img/new-games/2.png" alt="Picture of the game"> -->
+               <div class="peculiarity peculiarity-pos">
+                  <span class="peculiarity-text">Popular</span>
+               </div>
+               <button class="button button-pos active-lite-blue">Play now</button>
+            </div>
+
+
+            <div class="games-small">
+               <img src="img/pop/1.png" alt="Picture of the game">
+               <img src="img/pop/2.png" alt="Picture of the game">
+               <img src="img/pop/3.png" alt="Picture of the game">
+               <img src="img/pop/4.png" alt="Picture of the game">
+               <img src="img/pop/5.png" alt="Picture of the game">
+               <img src="img/pop/6.png" alt="Picture of the game">
+               <img src="img/pop/7.png" alt="Picture of the game">
+               <img src="img/pop/8.png" alt="Picture of the game">
+            </div>
+         </div>
+      </section>
+      <section class="new-games container mt__55">
+         <div class="games-nav">
+            <span class="text-name-block">Recommends games</span>
+            <span class="text-view">View all (46) ></span>
+         </div>
+         <div class="games-wrapper">
+            <div class="games-small">
+               <img src="img/rec/1.png" alt="Picture of the game">
+               <img src="img/rec/2.png" alt="Picture of the game">
+               <img src="img/rec/3.png" alt="Picture of the game">
+               <img src="img/rec/4.png" alt="Picture of the game">
+               <img src="img/rec/5.png" alt="Picture of the game">
+               <img src="img/rec/6.png" alt="Picture of the game">
+               <img src="img/rec/7.png" alt="Picture of the game">
+               <img src="img/rec/8.png" alt="Picture of the game">
+            </div>
+            <div class="games-big games-blue ml__9" style="background: url(img/new-games/3.png) 0 0 no-repeat;    background-size: cover;
+            ">
+               <div class="peculiarity">
+                  <span class="peculiarity-text">Recommends</span>
+               </div>
+               <button class="button button-pos active-blue">Play now</button>
+            </div>
+
+         </div>
+      </section>
+      <section class="pay">
+         <div class="pay__wrapper">
+            <img src="img/pay/1.png" alt="Pay cards">
+            <img src="img/pay/2.png" alt="Pay cards">
+            <img src="img/pay/3.png" alt="Pay cards">
+            <img src="img/pay/4.png" alt="Pay cards">
+            <img src="img/pay/5.png" alt="Pay cards">
+            <img src="img/pay/6.png" alt="Pay cards">
+            <img src="img/pay/7.png" alt="Pay cards">
+         </div>
+      </section>
+   </main>
+   <footer class="footer">
+      <div class="container padfoot">
+
+         <div class="partners">
+            <div class="partners__wrapper">
+               <img src="img/partners/1.png" alt="Partners card">
+               <img src="img/partners/2.png" alt="Partners card">
+               <img src="img/partners/3.png" alt="Partners card">
+               <img src="img/partners/4.png" alt="Partners card">
+               <img src="img/partners/1.png" alt="Partners card">
+               <img src="img/partners/5.png" alt="Partners card">
+               <img src="img/partners/4.png" alt="Partners card">
+               <img src="img/partners/3.png" alt="Partners card">
+               <img src="img/partners/4.png" alt="Partners card">
+               <img src="img/partners/1.png" alt="Partners card">
+            </div>
+            <div class="partners__wrapper mt__30">
+               <img src="img/partners/6.png" alt="Partners card">
+               <img src="img/partners/7.png" alt="Partners card">
+               <img src="img/partners/8.png" alt="Partners card">
+               <img src="img/partners/9.png" alt="Partners card">
+               <img src="img/partners/6.png" alt="Partners card">
+               <img src="img/partners/2.png" alt="Partners card">
+               <img src="img/partners/9.png" alt="Partners card">
+               <img src="img/partners/8.png" alt="Partners card">
+               <img src="img/partners/9.png" alt="Partners card">
+               <img src="img/partners/6.png" alt="Partners card">
+            </div>
+            <div class="partners__line"></div>
+         </div>
+         <div class="footer-info">
+            <div class="footer-info__logo">
+               <div class="footer-info__block-logo">
+                  <img src="img/nav/cards.svg" alt="Icon">
+                  <span class="ml__9 block">Casino Test</span>
+               </div>
+               <div class="footer-info__block-logo mt__30">
+                  <img src="img/footlogo/1.png" alt="Icon">
+                  <img src="img/footlogo/2.png" alt="Icon">
+               </div>
+            </div>
+            <div class="footer-info__links">
+               <div class="footer-info__links-block">
+                  <h3>Navigation</h3>
+                  <span class="block mt__16">Promotions</span>
+                  <span class="block mt__8">Casino Live</span>
+                  <span class="block mt__8">Casino</span>
+                  <span class="block mt__8">Sportbook</span>
+               </div>
+               <div class="footer-info__links-block">
+                  <h3>Categories</h3>
+                  <span class="block mt__16">New games</span>
+                  <span class="block mt__8">Popular</span>
+                  <span class="block mt__8">Slots</span>
+                  <span class="block mt__8">Casino live</span>
+                  <span class="block mt__8">Other</span>
+               </div>
+               <div class="footer-info__links-block">
+                  <h3>License</h3>
+                  <span class="block mt__16">Responsible Game</span>
+                  <span class="block mt__8">Fair Play</span>
+               </div>
+               <div class="footer-info__links-block">
+                  <h3>Сontacts</h3>
+                  <span class="block mt__16">Сontact</span>
+               </div>
+            </div>
+            <div class="footer-info__slider">
+               <div class="footer-info__slider-wrapper">
+                  <h3>To test one’s luck, one don’t even need to leave his or her house</h3>
+                  <p>Today online casinos have ceased to be something unusual, they are pretty much the same
+                     organizations
+                     as genuine gambling-houses, and their activities are strictly controlled. The online casino
+                     WebbySlot
+                     is being repeatedly tested for its honesty, and passes such tests successfully!
+                  </p>
+               </div>
+               <div class="footer-info__slider-pagination">
+                  <div class="footer-info__slider-point active-point"></div>
+                  <div class="footer-info__slider-point"></div>
+                  <div class="footer-info__slider-point"></div>
+                  <div class="footer-info__slider-point"></div>
+                  <div class="footer-info__slider-point"></div>
+                  <div class="footer-info__slider-point"></div>
+               </div>
+
+            </div>
+         </div>
+         <p class="copirait">Deuscasino.com is operated by SG International N.V., which is registered in E-Commerce
+            park, Vredenberg,
+            Curacao, having gaming licence No.8048/JAZZ2015-035 and all rights to operate the gaming software. SG
+            International LP is providing payment services as an agent according to the licence agreement concluded
+            between SG International LP and SG International N.V.
+            © Deus Casino. All rights reserved.
+            Developed by Softgamings</p>
+      </div>
+   </footer>
+   <script src="js/auth.js"></script>
+</body>
+
+</html>
